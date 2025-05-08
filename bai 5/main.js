@@ -1,34 +1,29 @@
-// hàm hiển thị hộp thoại lên trên trình duyệt cho người dùng
-// alert("xin chao");
+// khai bao bien
+// let userName;
+
 // hàm hiển thị hộp nhập liệu cho người dùng
-/*
-dòng 1 
-dòng 2 
-dòng 3 
-*/
-// prompt("mời nhập vào tên của bạn:");
-// khai báo biến
-var myName;
-let yourName;
-// const doSoi;
+let userName = prompt("mời cụ nhập tên: ");
 
-// khởi tạo biến
-var diemToan = 10;
-const doSoi = 100;
-let firstName = "Alice";
+// xuat gia tri ra man hình
+console.log(userName);
 
-// xuất giá trị của biến
-console.log(diemToan);
-console.log("điem toán la: " + diemToan + " diem");
-console.log(doSoi);
-console.log(firstName);
+console.log("ten cua ban la: " + userName);
+console.log("chao mung: " + userName + " den voi trang web cua toi");
 
-// thử thay đổi giá trị của biến
-diemToan = 5;
-console.log("Điểm toán của bạn là: " + diemToan + " điểm");
-firstName = "Jacky";
-console.log(firstName);
+/*-----------------------------------*/
 
-// thứ gân lại biến hằng số
-// doSoi = 50;
-// console.log(doSoi);
+// tên biến hợp lệ (bắt đầu chữ cái, _, $)
+let name;
+let Name;
+let _name;
+let $name;
+
+// các trường hợp không hợp lệ
+// let 1name;
+// let @name;
+
+// let var;
+// let const;
+//camelCase
+let dosoi;
+let doSoiCuaNuoc;
